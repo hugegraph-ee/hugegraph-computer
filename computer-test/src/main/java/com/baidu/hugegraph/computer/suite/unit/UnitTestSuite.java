@@ -24,6 +24,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.slf4j.Logger;
 
+import com.baidu.hugegraph.computer.algorithm.rank.pagerank.AlgorithmTestSuite;
 import com.baidu.hugegraph.computer.core.allocator.AllocatorTestSuite;
 import com.baidu.hugegraph.computer.core.bsp.BspTestSuite;
 import com.baidu.hugegraph.computer.core.combiner.CombinerTestSuite;
@@ -65,7 +66,8 @@ import com.baidu.hugegraph.util.Log;
     SortingTestSuite.class,
     SenderTestSuite.class,
     ReceiverTestSuite.class,
-    ComputeTestSuite.class
+    ComputeTestSuite.class,
+    AlgorithmTestSuite.class
 })
 public class UnitTestSuite {
 
